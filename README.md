@@ -1,6 +1,6 @@
-# 🌙 Noctaliæ – Analyseur de Rêves Scientifique
+# WIP🌙 Noctaliæ – Analyseur de Rêves Scientifique
 
-> Application web d'analyse cognitive des rêves, basée sur les neurosciences du sommeil.
+> Application web d'analyse cognitive des rêves, basée sur les neurosciences du sommeil. 
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://noctaliae.vercel.app)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
