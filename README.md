@@ -51,12 +51,12 @@ Chaque analyse comprend :
 - 🌙 **Phrase d'accroche** captivante
 - 📌 **TL;DR** - Résumé en 2-3 phrases
 - 🧠 **Interprétation scientifique** basée sur les recherches de :
-- **Isabelle Arnulf** (Pitié-Salpêtrière, Paris)
-- **Allan Hobson** (Harvard Medical School)
-- **G. William Domhoff** (UC Santa Cruz)
-- **Matthew Walker** (UC Berkeley)
-- **Erik Hoel** (Tufts University)
-- **Antti Revonsuo** (University of Turku)
+  **Isabelle Arnulf** (Pitié-Salpêtrière, Paris)
+  **Allan Hobson** (Harvard Medical School)
+  **G. William Domhoff** (UC Santa Cruz)
+  **Matthew Walker** (UC Berkeley)
+  **Erik Hoel** (Tufts University)
+  **Antti Revonsuo** (University of Turku)
 - ✨ **Fonction adaptative** - Ce que le rêve "fait" pour votre cerveau
 
 ---
