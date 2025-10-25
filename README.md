@@ -38,7 +38,7 @@ L'analyse repose sur les travaux de chercheurs reconnus :
 
 ### Version Web (Recommandée)
 
-**👉 [Essayer Noctaliæ maintenant]([https://noctaliae.vercel.app](https://noctaliae-web.vercel.app/))**
+**👉 [Essayer Noctaliæ maintenant](https://noctaliae-web.vercel.app/)
 
 1. Racontez votre rêve en détails (minimum 50 caractères)
 2. Cliquez sur "Analyser mon rêve"
