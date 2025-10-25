@@ -50,7 +50,13 @@ Chaque analyse comprend :
 
 - 🌙 **Phrase d'accroche** captivante
 - 📌 **TL;DR** - Résumé en 2-3 phrases
-- 🧠 **Interprétation scientifique** basée sur les recherches
+- 🧠 **Interprétation scientifique** basée sur les recherches de :
+- **Isabelle Arnulf** (Pitié-Salpêtrière, Paris)
+- **Allan Hobson** (Harvard Medical School)
+- **G. William Domhoff** (UC Santa Cruz)
+- **Matthew Walker** (UC Berkeley)
+- **Erik Hoel** (Tufts University)
+- **Antti Revonsuo** (University of Turku)
 - ✨ **Fonction adaptative** - Ce que le rêve "fait" pour votre cerveau
 
 ---
@@ -147,9 +153,9 @@ Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## 📬 Contact
 
-- 🌐 **Site web** : [noctaliae.vercel.app](https://noctaliae.vercel.app)
-- 📧 **Email** : contact@noctaliae.app
-- 💼 **LinkedIn** : Thomas – Créateur de Noctaliæ
+- 🌐 **Site web** : [noctaliae-web.vercel.app](https://noctaliae-web.vercel.app/)
+- 📧 **Email** : contact@thomasmaury.fr
+- 💼 **LinkedIn** : [Thomas – Créateur de Noctaliæ](https://www.linkedin.com/in/thomasmaury/) 
 
 ---
 
