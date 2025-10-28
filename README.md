@@ -37,9 +37,9 @@ L'analyse repose sur les travaux de chercheurs reconnus :
 ## 🚀 Utilisation
 👉 [User Guide](https://www.notion.so/Noctali-User-Guide-295976346b36817c8ae0c2be619f2639?source=copy_link)
 🥐 [Guide Utilisateur](https://sideways-lord-fa0.notion.site/Noctali-Guide-Utilisateur-295976346b3681159355dcaf6de6e90b?source=copy_link)
-### For now Only Version Web
+### For now Version Web Only 
 
-**👉 [Essayer Noctaliæ maintenant](https://noctaliae-web.vercel.app/)
+**👉 [Essayer Noctaliæ maintenant](https://noctaliae-web.vercel.app/)**
 
 1. Racontez votre rêve en détails (minimum 50 caractères)
 2. Cliquez sur "Analyser mon rêve"
