@@ -141,7 +141,7 @@ Node.js + Express
 
 ## 📊 Architecture
 
-
+![Noctaliæ Architecture](./Architecture.png)
 
 ---
 
