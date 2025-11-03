@@ -73,6 +73,9 @@ Visit [noctaliae-web.vercel.app](http://noctaliae-web.vercel.app) and:
 1. Type or paste your dream
 2. Click "Analyze"
 3. Receive your scientific interpretation
+> ⚠️ **Note:** The backend (Replit) goes to sleep after 1h of inactivity. If the demo doesn't work, the backend needs to be woken up first. Migration to Infomaniak (always-on hosting) is planned.
+> 
+
 
 ---
 
