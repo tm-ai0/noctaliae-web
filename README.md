@@ -138,40 +138,7 @@ Node.js + Express
 
 ## 📊 Architecture
 
-```mermaid
-graph TB
-    subgraph "Mobile App"
-        A[Recording Screen] --> B[expo-av]
-        C[Analysis Screen]
-        D[History Screen] --> E[AsyncStorage]
-    end
-    
-    subgraph "Backend API"
-        F[/transcribe]
-        G[/analyze-dream-free]
-        H[/analyze-dream]
-        I[/chat-text]
-        J[/voice-chat]
-    end
-    
-    subgraph "External APIs"
-        K[Groq Whisper FREE]
-        L[Groq Llama FREE]
-        M[Claude Sonnet $0.01]
-        N[OpenAI TTS $0.02]
-    end
-    
-    B -->|Audio| F
-    F --> G
-    F --> H
-    G --> C
-    H --> C
-    
-    F -.-> K
-    G -.-> L
-    H -.-> M
-    J -.-> N
-```
+
 
 ---
 
@@ -243,41 +210,6 @@ graph TB
 - 30 dream analyses: 30 × $0.01 = **$0.30**
 - 10 voice conversations: 10 × $0.03 = **$0.30**
 - **Total: ~$0.60/month** (on $2.99 subscription = **80% profit margin**)
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 18+
-- Expo CLI
-- Android Studio / Xcode (for emulators)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/noctaliae-mobile.git
-cd noctaliae-mobile
-
-# Install dependencies
-npm install
-
-# Start the development server
-npx expo start
-```
-
-### Environment Variables
-
-Create a `.env` file:
-
-```
-API_BASE_URL=https://your-backend-url.com
-GROQ_API_KEY=your_groq_key
-ANTHROPIC_API_KEY=your_anthropic_key
-OPENAI_API_KEY=your_openai_key
-```
 
 ---
 
