@@ -1,173 +1,366 @@
-# WIP🌙 Noctaliæ – Analyseur de Rêves Scientifique
+# 🌙 Noctaliæ (WIP)
 
-> Application web d'analyse cognitive des rêves, basée sur les neurosciences du sommeil. 
+**Scientific Dream Analysis App**
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://noctaliae.vercel.app)
+> *Analyze your dreams with science, not mysticism.*
+> 
+
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://noctaliae-web.vercel.app)
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
----
+**Live Demo:** https://noctaliae-web.vercel.app
 
-## 📦 Description
-
-**Noctaliæ** est une application IA qui analyse les rêves selon des grilles scientifiques validées. Elle refuse toute interprétation symbolique mystique et s'appuie sur des modèles neurocognitifs contemporains.
-
-### ✨ Caractéristiques
-
-- 🧠 **Analyse scientifique** via Claude Sonnet 4.5 (Anthropic)
-- 📊 **6 grilles d'analyse** validées par la recherche
-- 🎨 **Interface épurée** en mode sombre
-- ⚡ **Réponse rapide** (15-20 secondes)
-- 🔒 **Pas de stockage** des données personnelles
+> ⚠️ **Note:** The backend (Replit) goes to sleep after 1h of inactivity. If the demo doesn't work, the backend needs to be woken up first. Migration to Infomaniak (always-on hosting) is planned.
+> 
 
 ---
 
-## 🔬 Fondements scientifiques
+## 📖 What is Noctaliæ?
 
-L'analyse repose sur les travaux de chercheurs reconnus :
+Noctaliæ is a **scientific dream analysis application** based on sleep neuroscience research. Built on the work of **Isabelle Arnulf** (Pitié-Salpêtrière Hospital), **Allan Hobson**, **G. William Domhoff**, **Antti Revonsuo**, **Matthew Walker**, and **Erik Hoel**, it uses **6 validated analysis frameworks** to provide rigorous yet empathetic insights into your dreams.
 
-- **Activation-synthèse** (Allan Hobson) - Neurobiologie du rêve
-- **Continuité veille-sommeil** (G. William Domhoff) - 65-90% de continuité avec la vie éveillée
-- **Régulation émotionnelle** (Isabelle Arnulf, Perrine Ruby) - Traitement affectif
-- **Simulation de menaces** (Antti Revonsuo) - Fonction adaptative évolutionnaire
-- **Consolidation mnésique** (Matthew Walker) - Mémoire et apprentissage
-- **Anti-rigidité cognitive** (Erik Hoel) - Plasticité cérébrale
+### 🔬 Scientific Approach
 
----
-
-## 🚀 Utilisation
-👉 [User Guide](https://www.notion.so/Noctali-User-Guide-295976346b36817c8ae0c2be619f2639?source=copy_link)
-
-### Format d'analyse
-
-Chaque analyse comprend :
-
-- 🌙 **Phrase d'accroche** captivante
-- 📌 **TL;DR** - Résumé en 2-3 phrases
-- 🧠 **Interprétation scientifique** basée sur les recherches de :
-  **Isabelle Arnulf** (Pitié-Salpêtrière, Paris),
-  **Allan Hobson** (Harvard Medical School),
-  **G. William Domhoff** (UC Santa Cruz),
-  **Matthew Walker** (UC Berkeley),
-  **Erik Hoel** (Tufts University),
-  **Antti Revonsuo** (University of Turku).
-- ✨ **Fonction adaptative** - Ce que le rêve "fait" pour votre cerveau
+- ✅ **No universal symbolism** – We reject esoteric interpretations
+- ✅ **Evidence-based analysis** – Grounded in peer-reviewed neuroscience
+- ✅ **Continuity hypothesis** – 65-90% of dream content links to waking life
+- ✅ **Emotional regulation** – Dreams process emotions in a safe context
+- ✅ **Threat simulation** – 82% of dreams are negative (adaptive function)
 
 ---
 
-## 🛠️ Stack technique
+## ✨ Features
 
-### Frontend
-- **HTML/CSS/JS** natif (pas de framework, performance optimale)
-- **Hébergement** : Vercel (gratuit, rapide, HTTPS automatique)
+### 🆓 Free Version
 
-### Backend
-- **Node.js** + Express
-- **API** : Claude Sonnet 4.5 (Anthropic)
-- **Hébergement** : Replit (gratuit)
+- 🤖 **Unlimited analyses** with Llama 3.3 70B (Groq API)
+- 🎙️ **Voice recording** with automatic transcription (Groq Whisper)
+- 💬 **Text conversation** to explore your dreams deeper
+- 📚 **30-day history** with local storage
+- 🌍 **Multilingual** with auto-detection
 
-### Coût
-- ~0,01€ par analyse
-- Totalement gratuit pour l'utilisateur final
+### ⭐ Premium Version ($2.99/month)
+
+- 🧠 **Claude Sonnet 4.5** analysis (higher quality)
+- 💬 **Unlimited text conversations**
+- 🎙️ **Voice assistant** for hands-free exploration
+- 📊 **Advanced statistics** and patterns
+- 📄 **PDF export** of analyses
+- ♾️ **Unlimited history**
+
+### 💎 Lifetime Version ($19.99 one-time)
+
+- 🔓 All Premium features forever
+- 🚀 Early access to new features
+- 💜 Support the project long-term
 
 ---
 
-## 📚 Méthodologie
+## 🚀 How to Use
 
-### Principes de l'analyse
+### Mobile App (Coming Soon)
 
-1. ✅ **Pas de symbolisme universel** - Rejet des dictionnaires de symboles
-2. ✅ **Continuité avec la vie éveillée** - Recherche de liens avec le vécu
-3. ✅ **Empathie scientifique** - Ton bienveillant mais rigoureux
-4. ✅ **Contextualisation** - Prise en compte des émotions et du contexte
-5. ✅ **Evidence-based** - Citations scientifiques pertinentes
+1. **Record your dream** – Voice or text input upon waking
+2. **Get instant analysis** – Scientific interpretation in seconds
+3. **Explore deeper** – Ask follow-up questions via text or voice
+4. **Track patterns** – See recurring themes and emotions over time
 
-### Exemples de types de rêves analysés
+### Web Version (Live Now)
 
-- 🎓 **Rêves d'anxiété de performance** (examens oubliés)
-- 👥 **Rêves de deuil** (personnes décédées)
-- 🔄 **Rêves récurrents** (patterns répétitifs)
-- 🌀 **Rêves bizarres** (éléments surréalistes)
-- ✈️ **Rêves de vol** (sensations inhabituelles)
+Visit [noctaliae-web.vercel.app](http://noctaliae-web.vercel.app) and:
+
+1. Type or paste your dream
+2. Click "Analyze"
+3. Receive your scientific interpretation
+
+---
+
+## 🧠 The 6 Analysis Frameworks
+
+| Dream Type | Framework | Researcher |
+| --- | --- | --- |
+| Bizarre/surreal | Activation-Synthesis | Allan Hobson |
+| Recent event-related | Continuity Hypothesis | G. William Domhoff |
+| Emotionally charged | Emotional Regulation | Isabelle Arnulf / Perrine Ruby |
+| Nightmare/threat | Threat Simulation Theory | Antti Revonsuo |
+| Skill rehearsal | Memory Consolidation | Matthew Walker |
+| Recurring | Continuity + Regulation | Multiple researchers |
+
+---
+
+## 🔬 Scientific Foundations
+
+### The 10 Fundamental Principles (Isabelle Arnulf)
+
+1. **Dreams are concrete cognitive activity** – Not symbolic mysteries
+2. **Dreams occur in real-time** – No time compression
+3. **Bidirectional communication is possible** – Via eye signals in lucid dreams
+4. **REM is not complete disconnection** – Brain remains partially connected
+5. **Threat simulation** – 82% of dreams are negative (adaptive function)
+6. **Emotional regulation** – Processing emotions in a calm chemical context
+7. **Continuity with waking life** – 65-90% content linked to past 24h
+8. **Creativity and problem-solving** – Unusual associations
+9. **Physical behavior reflects mental content** – Psycho-physiological correlations
+10. **Everyone dreams, forgetting is normal** – Encoding issue, not absence
+
+---
+
+## 🛠️ Tech Stack
+
+### Mobile App (React Native)
+
+```
+React Native + Expo SDK 54
+├── expo-av (audio recording)
+├── AsyncStorage (local storage)
+├── React Navigation (screens)
+└── axios (API calls)
+```
+
+### Backend (Node.js)
+
+```
+Node.js + Express
+├── Groq API (Llama 3.3 70B) – FREE
+├── Groq Whisper (transcription) – FREE
+├── Claude API (Anthropic) – $0.01/analysis
+└── OpenAI TTS (voice assistant) – $0.02/response
+```
+
+### Deployment
+
+- **Web:** Vercel
+- **Backend:** Replit → Infomaniak (migration in progress)
+- **Mobile:** Expo EAS Build (iOS + Android)
+
+---
+
+## 📊 Architecture
+
+```mermaid
+graph TB
+    subgraph "Mobile App"
+        A[Recording Screen] --> B[expo-av]
+        C[Analysis Screen]
+        D[History Screen] --> E[AsyncStorage]
+    end
+    
+    subgraph "Backend API"
+        F[/transcribe]
+        G[/analyze-dream-free]
+        H[/analyze-dream]
+        I[/chat-text]
+        J[/voice-chat]
+    end
+    
+    subgraph "External APIs"
+        K[Groq Whisper FREE]
+        L[Groq Llama FREE]
+        M[Claude Sonnet $0.01]
+        N[OpenAI TTS $0.02]
+    end
+    
+    B -->|Audio| F
+    F --> G
+    F --> H
+    G --> C
+    H --> C
+    
+    F -.-> K
+    G -.-> L
+    H -.-> M
+    J -.-> N
+```
+
+---
+
+## 🔐 Privacy & Security
+
+### Current Implementation
+
+- ✅ **No audio storage** – Audio is transcribed then immediately deleted
+- ✅ **Local-first** – Dream history stored on device (AsyncStorage)
+- ✅ **No tracking** – No analytics, no third-party cookies
+
+### Planned (Before Store Launch)
+
+- 🔒 **Firebase Authentication** (OAuth2 + PKCE)
+- 📜 **GDPR-compliant Privacy Policy**
+- 🗑️ **Right to erasure** (complete account deletion)
+- 🔐 **E2EE encryption** if cloud storage added
+- 📤 **Data portability** (export your data)
 
 ---
 
 ## 🗺️ Roadmap
 
-### ✅ Phase 1 (Terminé)
-- [x] Version web fonctionnelle
-- [x] API Claude intégrée
-- [x] Design professionnel
-- [x] Déploiement Vercel
+### ✅ Phase 0 - Genesis (Oct 2025)
 
-### 🚧 Phase 2 (En cours)
-- [ ] Historique des analyses (optionnel, avec consentement)
-- [ ] Export PDF/Markdown
-- [ ] Support multilingue (EN, ES, DE)
-- [ ] Suggestions de questions contextuelles
+- ✅ Scientific research (Arnulf, Hobson, Domhoff, Revonsuo, Walker, Hoel)
+- ✅ Prompt engineering with 6 analysis frameworks
+- ✅ Web prototype validation
+- ✅ Free version with Groq (Llama 3.3 70B)
 
-### 🔮 Phase 3 (Futur)
-- [ ] Application mobile (iOS/Android)
-- [ ] Intégration Omi (analyse vocale au réveil)
-- [ ] Journal de rêves avec tendances
-- [ ] API publique
+### 🔄 Phase 1 - Mobile MVP (Nov 2025 - In Progress)
+
+- ✅ React Native app structure
+- ✅ Voice recording with Whisper transcription
+- ✅ Dream analysis (Free + Premium toggle)
+- ✅ Local history with playback
+- 🔄 Text conversation (in progress)
+- ⏳ Voice assistant (Premium)
+- ⏳ Firebase Authentication
+- ⏳ Infomaniak backend migration
+
+### ⏳ Phase 2 - Monetization (Dec 2025)
+
+- In-app purchases (iOS + Android)
+- Premium subscription ($2.99/month)
+- Lifetime purchase ($19.99 one-time)
+
+### ⏳ Phase 3 - Advanced Features (2026)
+
+- Multi-device sync (Firebase)
+- PDF export
+- Dream statistics & insights
+- Wake-up reminders
 
 ---
 
-## 🤝 Contribuer
+## 💰 Cost Analysis
 
-Les contributions sont les bienvenues ! Que vous soyez développeur, designer, chercheur en neurosciences ou simplement passionné par les rêves.
+### Per Dream Analysis
 
-### Comment contribuer
+| Version | STT | LLM | TTS | Total |
+| --- | --- | --- | --- | --- |
+| **Free** | $0 (Groq) | $0 (Groq) | N/A | **$0** |
+| **Premium (text)** | $0 (Groq) | $0.01 (Claude) | N/A | **$0.01** |
+| **Premium (voice)** | $0 (Groq) | $0.01 (Claude) | $0.02 (OpenAI) | **$0.03** |
 
-1. **Fork** ce repository
-2. Créez votre branche : `git checkout -b feature/ma-fonctionnalite`
-3. Commit vos changements : `git commit -m 'Ajout de X'`
-4. Push : `git push origin feature/ma-fonctionnalite`
-5. Ouvrez une **Pull Request**
+### Monthly Budget Example (Premium User)
 
-### Domaines de contribution
+- 30 dream analyses: 30 × $0.01 = **$0.30**
+- 10 voice conversations: 10 × $0.03 = **$0.30**
+- **Total: ~$0.60/month** (on $2.99 subscription = **80% profit margin**)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- Expo CLI
+- Android Studio / Xcode (for emulators)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/noctaliae-mobile.git
+cd noctaliae-mobile
+
+# Install dependencies
+npm install
+
+# Start the development server
+npx expo start
+```
+
+### Environment Variables
+
+Create a `.env` file:
+
+```
+API_BASE_URL=https://your-backend-url.com
+GROQ_API_KEY=your_groq_key
+ANTHROPIC_API_KEY=your_anthropic_key
+OPENAI_API_KEY=your_openai_key
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Whether you're a developer, designer, neuroscience researcher, or simply passionate about dreams, there's a place for you.
+
+### How to Contribute
+
+1. **Fork** this repository
+2. Create your branch: `git checkout -b feature/my-feature`
+3. Commit your changes: `git commit -m 'Add X'`
+4. Push: `git push origin feature/my-feature`
+5. Open a **Pull Request**
+
+### Areas of Contribution
 
 - 💻 Code (frontend/backend)
 - 🎨 Design & UX
-- 🔬 Validation scientifique
+- 🔬 Scientific validation
 - 📝 Documentation
-- 🌍 Traductions
-- 🐛 Signalement de bugs
+- 🌍 Translations
+- 🐛 Bug reports
+
+### Development Principles
+
+1. **Science-first** – All features must be evidence-based
+2. **Privacy-first** – User data is sacred
+3. **Accessibility-first** – Design for everyone
+4. **Open-source** – Transparent development
 
 ---
 
-## 📄 Licence
+## 📄 License
 
-**MIT License** - Libre d'usage, de modification et de distribution.
-
-Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+This project is licensed under the **MIT License** – see the LICENSE file for details.
 
 ---
 
-## 📬 Contact
+## 🙏 Acknowledgments
 
-- 🌐 **Site web** : [noctaliae-web.vercel.app](https://noctaliae-web.vercel.app/)
-- 📧 **Email** : contact@thomasmaury.fr
-- 💼 **LinkedIn** : [Thomas – Créateur de Noctaliæ](https://www.linkedin.com/in/thomasmaury/) 
+### Scientific Research
 
----
+- **Isabelle Arnulf** – Pitié-Salpêtrière Hospital, Paris (sleep neuroscience)
+- **Allan Hobson** – Activation-Synthesis Model
+- **G. William Domhoff** – Continuity Hypothesis
+- **Antti Revonsuo** – Threat Simulation Theory
+- **Matthew Walker** – Memory Consolidation (UC Berkeley)
+- **Erik Hoel** – Overfitted Brain Hypothesis (Tufts University)
 
-## 🙏 Remerciements
+### Technologies
 
-Ce projet s'appuie sur les recherches de :
-
-- **Isabelle Arnulf** (Pitié-Salpêtrière, Paris)
-- **Allan Hobson** (Harvard Medical School)
-- **G. William Domhoff** (UC Santa Cruz)
-- **Matthew Walker** (UC Berkeley)
-- **Erik Hoel** (Tufts University)
-- **Antti Revonsuo** (University of Turku)
+- Anthropic Claude – AI analysis
+- Groq – Free Llama 3.3 & Whisper
+- OpenAI – Text-to-Speech
 
 ---
 
-> *"Nous pouvons considérer le sommeil REM comme une thérapie nocturne gratuite."*  
-> — **Matthew Walker**, Why We Sleep
+## 📞 Contact
+
+- **Website:** [noctaliae-web.vercel.app](http://noctaliae-web.vercel.app)
+- **Email:** [contact@thomasmaury.fr](mailto:contact@thomasmaury.fr)
+- **LinkedIn:** [Thomas Maury – Creator of Noctaliæ]({{https://www.linkedin.com/in/thomasmaury/}})
+- **GitHub:** [github.com/tm-ai0/noctaliae](http://github.com/tm-ai0/noctaliae)
 
 ---
 
-**⭐ Si ce projet vous plaît, donnez-lui une étoile sur GitHub !**
+## 📊 Project Status
+
+**Current Focus:** Completing Phase 1 Mobile MVP + Firebase Auth + GDPR Compliance
+
+---
+
+### 🌙 *"The dream is not a coded message to decipher. It is a concrete cognitive activity."*
+
+- **Isabelle Arnulf**
+
+### 🌙 *"We can consider REM sleep as overnight therapy, a form of emotional first aid."*
+
+- **Matthew Walker**, Why We Sleep
+
+---
+
+Made with 🧠 and ❤️ by [Thomas Maury]({{https://thomasmaury.fr}})
+
+**⭐ If you like this project, give it a star on GitHub!**
